@@ -5,7 +5,7 @@ on:
     - main
 
 jobs:
-  build-and deploy:
+  build-and-deploy:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
