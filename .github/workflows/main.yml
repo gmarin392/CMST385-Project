@@ -12,6 +12,6 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: cmst385-gmarin1187003
+        app-name: cmst385-gmarin2
         slot-name: production
         publish-profile: ${{secrets.AppServiceCMST385}}
