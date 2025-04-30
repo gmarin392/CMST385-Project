@@ -1,0 +1,57 @@
+body {
+   background-color:#2c1e4a;
+}
+
+nav {
+   font-family: Book Antiqua;
+   font-size: 50px;
+   text-align: center;
+   font-weight: 600;
+   line-height: 5px;
+}
+a {
+   text-decoration: none;
+   color: #1da6bf;
+}
+
+h1 {
+   color: #931a80;   
+   font-family: Harrington;
+   font-size: 100px;
+   font-weight: 1000;
+   text-align: center;
+   border: 5px solid #931a80;
+   background-color: #f2f2f2;
+   padding: 25px;
+   
+}
+
+.img_pic {
+   text-align: center;
+}
+   
+h2 {
+   font-family: Lucida Handwriting;
+   font-size: 50px;
+   text-align: center;
+   color: #cf7fc2;
+}
+
+.main {
+   color: #ffffff;
+   font-family: Times New Roman;
+   font-size: 25px;
+   text-align: center;
+   line-height: 40px;
+   padding: 40px;
+}
+
+h3 {
+   font-family: Book Antiqua;
+   font-size: 40px;
+   text-align: left;
+}
+a {
+   text-decoration: none;
+   color: #1da6bf;
+}
