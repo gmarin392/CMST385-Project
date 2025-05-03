@@ -1,13 +1,16 @@
+.wholepage {
+   padding: 10px;
+}
+
 body {
    background-color:#2c1e4a;
 }
 
 nav {
    font-family: Book Antiqua;
-   font-size: 50px;
+   font-size: 40px;
+   line-height: 1px;
    text-align: center;
-   font-weight: 600;
-   line-height: 5px;
 }
 a {
    text-decoration: none;
@@ -16,14 +19,14 @@ a {
 
 h1 {
    color: #931a80;   
-   font-family: Harrington;
-   font-size: 100px;
-   font-weight: 1000;
+   font-family: Bookman Old Style;
+   font-size: 90px;
+   font-weight: 400;
    text-align: center;
    border: 5px solid #931a80;
    background-color: #f2f2f2;
+   text-shadow: 7px 7px 14px #f5b8eb;
    padding: 25px;
-   
 }
 
 .img_pic {
@@ -34,7 +37,15 @@ h2 {
    font-family: Lucida Handwriting;
    font-size: 50px;
    text-align: center;
+   font-weight: 700;
    color: #cf7fc2;
+}
+
+.description {
+   text-align:center;
+   font-family: Book Antiqua;
+   font-size: 40px;
+   color: #d9d9d9;
 }
 
 .main {
@@ -43,7 +54,7 @@ h2 {
    font-size: 25px;
    text-align: center;
    line-height: 40px;
-   padding: 40px;
+   padding: 20px;
 }
 
 h3 {
@@ -53,5 +64,39 @@ h3 {
 }
 a {
    text-decoration: none;
-   color: #1da6bf;
+   color: #2e849a;
+}
+
+.highlight {
+background-color: #f2f2f2;
+}
+
+.album {
+   margin-bottom: 20px;
+}
+
+.album_list {
+   font-family: Times New Roman;
+   font-size: 23px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+}
+
+.album_list img {
+   width: 35%;
+   height: auto;
+   object-fit: cover;
+}
+
+.songs {
+   color: #ffffff;
+   list-style type: decimal;
+   padding-left:10px;
+}
+
+.songs li {
+   margin-bottom: 10px;
 }
