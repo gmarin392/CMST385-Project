@@ -51,7 +51,7 @@ h2 {
 .main {
    color: #ffffff;
    font-family: Times New Roman;
-   font-size: 25px;
+   font-size: 30px;
    text-align: center;
    line-height: 40px;
    padding: 20px;
@@ -99,4 +99,10 @@ background-color: #f2f2f2;
 
 .songs li {
    margin-bottom: 10px;
+}
+
+h4 {
+   font-family: Times New Roman;
+   font-size: 40px;
+   text-align: center;
 }
