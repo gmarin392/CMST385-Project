@@ -1,87 +1,198 @@
-.*{
-   margin: 0;   
-   padding: 0;
+.wholepage{
+   padding: 10px;
 }
 
-.header{
-   height: 150vh;
-   width: 120%;
-   background-image: linear-gradient(to left top, #383f75, #ff723a, #ee2e21);
-   background-position: center;
-   background-size: cover;
+body{
+   background-color: #da4800;
 }
 
-.main{
-   width: 1200px;
-   height: 75px;
-   margin: auto;
+nav{
+   display: flex;
+   padding: 1% 0%;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .logo img{
    float: left;
    width: 160px;
-   height: 130px;
-   padding: 0% 2%;
-}
-
-ul{
-   float: right;
-   list-style-type: none;
-   margin-top: 90px;
-   min-height: 400px;
-   margin-right: 10px;
-   font-size: 20px;
-   font-weight: bold;
-}
-
-ul li{
-   display: inline-block;
-}
-
-ul li a{
-   text-decoration: none;
-   color: #0d078b;
-   padding: 7px 20px;
-   border: 1px solid transparent;
-   transition: 0.5 ease;
-}
-
-ul li a:hover{
-   background-color: #ffffff;
-   color: #0d078b;
-}
-
-ul li.active a{
-   background-color: #ffffff;
-   color: #0d078b;
-}
-
-.title{
-   width: 1200px;
-   position: absolute;
-   top: 70%;
-   left: 50%;
-   transform: translate(-40%,-40%);
-   text-align: center;
-}
-
-.title h1{
-   font-size: 70px;
-   font-family: bookman old style;
-   text-shadow: -7px -7px 14px #dbd8d1;
-   letter-spacing: 3px;
-   color: #ffffff;
-   padding: 25%
-}
-
-.title img{
-   width: 100%:
    height: auto;
 }
 
-.title p{
-   font-size: 20px;
-   font-family: Times New Roman;
+.menubar{
+   float: right;
+   text-align: right;
+}
+
+.menubar ul{
+   float: right;
+   list-style-type: none;
+   font-size: 25px;
+   font-weight: bold;
+   position: relative;
+}
+
+.menubar ul li{
+   display: inline-block;
+   padding: 3px 7px;
+}
+
+a{
+   text-decoration: none;
+   color: #f3f7fa;
+   border: 1px solid transparent;
+   transition: width 1s;
+   padding: 8px 12px;
+}
+
+.menubar ul li a:hover{
+   background-color: #1c1d1d;
+   color: #f3f7fa;
+}
+
+h1{
+   font-size: 65px;
+   font-family: arial black;
+   text-shadow: 2px 2px 6px #fad02c;
+   letter-spacing: 7px;
+   color: #1c1d1d;
+   text-align: center;
+   padding: 5px;
+}
+
+.img_pic{
+   float: right;
+   padding: 7px 7px;
+}
+
+breakfastmain img{
+   width: 100%;
+   height: auto;
+}
+
+h2{
    color: #ffffff;
-   padding: 25%;
+   font-size: 35px;
+   text-align: left;
+   text-shadow: 2px 2px 4px #6b371d;
+   font-family: Georgia;
+   padding: 2px;
+}
+
+.main{
+   font-size: 25px;
+   color: #ffffff;
+   text-align: left;
+   line-height: 50px;
+   padding: 10px;
+}
+
+.button a{
+   margin-top: 50px;
+   background: #f5cb23;
+   border: none;
+   border: none;
+   letter-spacing: .04em;
+   font-size: 30px;
+   font-family: century;
+   color: #ffffff;
+   text-shadow: 4px 4px 6px #6b371d;
+}
+
+hr{
+   height: 6px;
+   background: #ffffff;
+}
+  
+h3{
+   font-size: 20px;
+   text-align: left;
+   margin: 0px;
+}
+
+.highlight a{
+   background-color: #1c1d1d;
+   padding: 8px 12px;
+}
+
+h4{
+   color: #0d0c00;
+   font-size: 40px;
+   text-align: center;
+}
+
+.menu{
+   padding: 5px 0 5px 0;
+}
+
+.section{
+   padding: 5px 0 5px 0;
+   text-align: center;
+   font-family: verdana;
+}
+
+.menu_row{
+   display: flex;
+   padding:  10px 0 100px;
+   color: #ffffff;
+}
+
+.menu_col{
+   box-shadow: 2px 2px 2px #dbd8d1;
+   border: 1px solid #dbd8d1;
+   background-color: transparent;
+   flex: 1;
+   margin: 1px;
+   padding: 1px
+}
+
+.menu_col h5{
+   background-color: #f5cb23;
+   text-align: center;
+   padding: 5px;
+   font-family: cursive;
+   font-size: 35px;
+}
+
+.image{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   padding: 5px;
+   border: 4px solid #f5cb23;
+}
+
+.image img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 5px;
+   font-size: 25px;
+}
+
+.main_hrloc{
+   font-size: 25px;
+   color: #ffffff;
+   text-align: center;
+   line-height: 28px;
+   padding: 2px;
+}
+
+form{
+   text-align: center;
+   font-size: 25px;
+   height: auto;
+   color: #ffffff;
+}
+
+.submit{
+   text-align: center;
 }
